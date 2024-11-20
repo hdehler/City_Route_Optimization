@@ -4,8 +4,6 @@
 
 CitySim is a program designed to simulate and calculate routes between US cities based on their geographical locations and population. The application leverages graph theory to determine both the shortest and fastest routes between cities, using real-world geodesic distances and estimated travel times.
 
-Developed for CS302, this project demonstrates proficiency in working with graphs, file I/O, and algorithmic problem-solving.
-
 ---
 
 ## Features
