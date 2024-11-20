@@ -1,8 +1,3 @@
-//Harrison Dehler
-//COSC302
-//In this lab sort through cities from a text file and calculate the distance through the haversince function
-//and calculation the travel time based on the city type. We then use dijkstras to find the shortest and fastest route
-//between cities
 #include <iostream>
 #include <algorithm>
 #include <cmath>
