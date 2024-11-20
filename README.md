@@ -70,4 +70,44 @@ Developed for CS302, this project demonstrates proficiency in working with graph
 2. Calculate the shortest route
    ```bash
    ./citysim -dist uscities.txt
-   
+  When prompted, enter city names interactively:
+  ```bash
+  Knoxville_TN Atlanta_GA
+  ```
+3. Calculate the fastest route
+   ```bash
+   ./citysim -time uscities.txt
+  When prompted, enter city names interactively:
+  ```bash
+  Los_Angeles_CA New_York_NY
+  ```
+---
+
+## Input and Output Files
+
+### Input
+* **uscities.txt**: Contains city data in teh following format:
+  ```bash
+  #city state type population lat lng
+  Knoxville TN LOCAL 187500 36.96 -83.92
+  ```
+### Output
+1. City Information:
+   * **city_info.txt**: Contains formatted information about all cities.
+2. Distance Table:
+   * **city_dist.txt**: Contains distances between pairs of cities.
+3. Time Table:
+   * **city_time.txt**: Contains travel times between pairs of cities.
+4. City Graph:
+   **city_graph.txt**: Comtains graph representation of city connections.
+
+---
+
+## Key Algorithms and Concepts
+* **Graph Representation**: Uses adjacency lists for city connections.
+* **Shortest Path**: Implements Dijkstra's Algorithm.
+* **Haversine Formula**: Calculates great-circle distances between geographical coordinates
+* **Data Structures**:
+  * **vector** for city storage.
+  * **smatrix** for symmetric matrix representation of distances and times.
+
